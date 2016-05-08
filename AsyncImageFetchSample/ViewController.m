@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "JSONParser.h"
+#import "NSString+URLString.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.title =@"Menu";
 }
 
 - (void)didReceiveMemoryWarning {

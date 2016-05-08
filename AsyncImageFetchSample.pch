@@ -1,0 +1,16 @@
+//
+//  AsyncImageFetchSample.pch
+//  AsyncImageFetchSample
+//
+//  Created by Satish on 07/05/16.
+//  Copyright © 2016 MyCompany. All rights reserved.
+//
+
+#ifndef AsyncImageFetchSample_pch
+#define AsyncImageFetchSample_pch
+
+#import <CoreData/CoreData.h>
+
+#import <AFNetworking/AFNetworking.h>
+
+#endif 

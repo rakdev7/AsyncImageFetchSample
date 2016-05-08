@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40D7D5A54A0F89F864EFAEB4 /* libPods-AsyncImageFetchSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8F3BF9101E7E433DFE76D /* libPods-AsyncImageFetchSample.a */; };
+		7508F6F31CDEEBB300ACA24D /* CollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508F6F21CDEEBB300ACA24D /* CollectionViewImageCell.m */; };
+		7508F6F61CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508F6F51CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.m */; };
 		75FE131A1CDDC85C00A000C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE13191CDDC85C00A000C4 /* main.m */; };
 		75FE131D1CDDC85C00A000C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE131C1CDDC85C00A000C4 /* AppDelegate.m */; };
 		75FE13201CDDC85C00A000C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE131F1CDDC85C00A000C4 /* ViewController.m */; };
@@ -15,6 +18,16 @@
 		75FE13281CDDC85D00A000C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FE13271CDDC85D00A000C4 /* Assets.xcassets */; };
 		75FE132B1CDDC85D00A000C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FE13291CDDC85D00A000C4 /* LaunchScreen.storyboard */; };
 		75FE13361CDDC85D00A000C4 /* AsyncImageFetchSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE13351CDDC85D00A000C4 /* AsyncImageFetchSampleTests.m */; };
+		75FE13431CDDCC5700A000C4 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE13421CDDCC5700A000C4 /* JSONParser.m */; };
+		75FE134B1CDDE26100A000C4 /* NSString+URLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE134A1CDDE26100A000C4 /* NSString+URLString.m */; };
+		75FE13511CDDE48400A000C4 /* Images+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE134E1CDDE48400A000C4 /* Images+CoreDataProperties.m */; };
+		75FE13521CDDE48400A000C4 /* Images.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE13501CDDE48400A000C4 /* Images.m */; };
+		75FE13561CDDE50100A000C4 /* DatabaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE13551CDDE50100A000C4 /* DatabaseHandler.m */; };
+		75FE135B1CDDF19900A000C4 /* AsyncImageFectchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE135A1CDDF19900A000C4 /* AsyncImageFectchTableViewController.m */; };
+		75FE13931CDE07B900A000C4 /* TableViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE13921CDE07B900A000C4 /* TableViewImageCell.m */; };
+		75FE13981CDE0A5D00A000C4 /* imagesViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE13971CDE0A5D00A000C4 /* imagesViewModel.m */; };
+		75FE139B1CDE0E6100A000C4 /* imageDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE139A1CDE0E6100A000C4 /* imageDetailsViewController.m */; };
+		75FE139D1CDE1AA000A000C4 /* loading_large@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75FE139C1CDE1AA000A000C4 /* loading_large@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7508F6F11CDEEBB300ACA24D /* CollectionViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewImageCell.h; sourceTree = "<group>"; };
+		7508F6F21CDEEBB300ACA24D /* CollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewImageCell.m; sourceTree = "<group>"; };
+		7508F6F41CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageFetchCollectionViewController.h; sourceTree = "<group>"; };
+		7508F6F51CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageFetchCollectionViewController.m; sourceTree = "<group>"; };
 		75FE13151CDDC85C00A000C4 /* AsyncImageFetchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncImageFetchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FE13191CDDC85C00A000C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75FE131B1CDDC85C00A000C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +59,31 @@
 		75FE13311CDDC85D00A000C4 /* AsyncImageFetchSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncImageFetchSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FE13351CDDC85D00A000C4 /* AsyncImageFetchSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncImageFetchSampleTests.m; sourceTree = "<group>"; };
 		75FE13371CDDC85D00A000C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FE13411CDDCC5700A000C4 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		75FE13421CDDCC5700A000C4 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
+		75FE13461CDDD1E700A000C4 /* AppDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataModel.h; sourceTree = "<group>"; };
+		75FE13471CDDDB9200A000C4 /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		75FE13491CDDE26100A000C4 /* NSString+URLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLString.h"; sourceTree = "<group>"; };
+		75FE134A1CDDE26100A000C4 /* NSString+URLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLString.m"; sourceTree = "<group>"; };
+		75FE134D1CDDE48400A000C4 /* Images+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Images+CoreDataProperties.h"; sourceTree = "<group>"; };
+		75FE134E1CDDE48400A000C4 /* Images+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Images+CoreDataProperties.m"; sourceTree = "<group>"; };
+		75FE134F1CDDE48400A000C4 /* Images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Images.h; sourceTree = "<group>"; };
+		75FE13501CDDE48400A000C4 /* Images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Images.m; sourceTree = "<group>"; };
+		75FE13541CDDE50100A000C4 /* DatabaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHandler.h; sourceTree = "<group>"; };
+		75FE13551CDDE50100A000C4 /* DatabaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHandler.m; sourceTree = "<group>"; };
+		75FE13571CDDE58200A000C4 /* AsyncImageFetchSample.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageFetchSample.pch; sourceTree = SOURCE_ROOT; };
+		75FE13591CDDF19900A000C4 /* AsyncImageFectchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageFectchTableViewController.h; sourceTree = "<group>"; };
+		75FE135A1CDDF19900A000C4 /* AsyncImageFectchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageFectchTableViewController.m; sourceTree = "<group>"; };
+		75FE13911CDE07B900A000C4 /* TableViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewImageCell.h; sourceTree = "<group>"; };
+		75FE13921CDE07B900A000C4 /* TableViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewImageCell.m; sourceTree = "<group>"; };
+		75FE13961CDE0A5D00A000C4 /* imagesViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imagesViewModel.h; sourceTree = "<group>"; };
+		75FE13971CDE0A5D00A000C4 /* imagesViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imagesViewModel.m; sourceTree = "<group>"; };
+		75FE13991CDE0E6100A000C4 /* imageDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageDetailsViewController.h; sourceTree = "<group>"; };
+		75FE139A1CDE0E6100A000C4 /* imageDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageDetailsViewController.m; sourceTree = "<group>"; };
+		75FE139C1CDE1AA000A000C4 /* loading_large@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_large@3x.png"; sourceTree = "<group>"; };
+		9A257BB74F783E276CAE82C3 /* Pods-AsyncImageFetchSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncImageFetchSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncImageFetchSample/Pods-AsyncImageFetchSample.release.xcconfig"; sourceTree = "<group>"; };
+		9BB8F3BF9101E7E433DFE76D /* libPods-AsyncImageFetchSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsyncImageFetchSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3189F50335B52B6ECAE74A1 /* Pods-AsyncImageFetchSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncImageFetchSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncImageFetchSample/Pods-AsyncImageFetchSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D7D5A54A0F89F864EFAEB4 /* libPods-AsyncImageFetchSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D0674642D7D7F2C0934A58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3189F50335B52B6ECAE74A1 /* Pods-AsyncImageFetchSample.debug.xcconfig */,
+				9A257BB74F783E276CAE82C3 /* Pods-AsyncImageFetchSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		75FE130C1CDDC85C00A000C4 = {
 			isa = PBXGroup;
 			children = (
 				75FE13171CDDC85C00A000C4 /* AsyncImageFetchSample */,
 				75FE13341CDDC85D00A000C4 /* AsyncImageFetchSampleTests */,
 				75FE13161CDDC85C00A000C4 /* Products */,
+				18D0674642D7D7F2C0934A58 /* Pods */,
+				A418F7F94AA7A10F35423CEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +137,20 @@
 		75FE13171CDDC85C00A000C4 /* AsyncImageFetchSample */ = {
 			isa = PBXGroup;
 			children = (
+				75FE13901CDE079B00A000C4 /* Views */,
+				75FE13581CDDF15800A000C4 /* ViewControllers */,
+				75FE13481CDDE21100A000C4 /* Categories */,
+				75FE13441CDDD1B300A000C4 /* Model */,
+				75FE13401CDDCACD00A000C4 /* NetworkHandler */,
 				75FE131B1CDDC85C00A000C4 /* AppDelegate.h */,
 				75FE131C1CDDC85C00A000C4 /* AppDelegate.m */,
-				75FE131E1CDDC85C00A000C4 /* ViewController.h */,
-				75FE131F1CDDC85C00A000C4 /* ViewController.m */,
+				75FE13471CDDDB9200A000C4 /* AppConstants.h */,
 				75FE13211CDDC85C00A000C4 /* Main.storyboard */,
+				75FE139C1CDE1AA000A000C4 /* loading_large@3x.png */,
 				75FE13271CDDC85D00A000C4 /* Assets.xcassets */,
 				75FE13291CDDC85D00A000C4 /* LaunchScreen.storyboard */,
 				75FE132C1CDDC85D00A000C4 /* Info.plist */,
+				75FE13571CDDE58200A000C4 /* AsyncImageFetchSample.pch */,
 				75FE13241CDDC85C00A000C4 /* AsyncImageFetchSample.xcdatamodeld */,
 				75FE13181CDDC85C00A000C4 /* Supporting Files */,
 			);
@@ -114,6 +174,107 @@
 			path = AsyncImageFetchSampleTests;
 			sourceTree = "<group>";
 		};
+		75FE13401CDDCACD00A000C4 /* NetworkHandler */ = {
+			isa = PBXGroup;
+			children = (
+				75FE13411CDDCC5700A000C4 /* JSONParser.h */,
+				75FE13421CDDCC5700A000C4 /* JSONParser.m */,
+			);
+			name = NetworkHandler;
+			sourceTree = "<group>";
+		};
+		75FE13441CDDD1B300A000C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75FE13951CDE0A4E00A000C4 /* ViewModels */,
+				75FE13531CDDE4BF00A000C4 /* CoreDataHandler */,
+				75FE134C1CDDE43500A000C4 /* ImageManagedObjectClasses */,
+				75FE13451CDDD1C400A000C4 /* AppDataModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		75FE13451CDDD1C400A000C4 /* AppDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				75FE13461CDDD1E700A000C4 /* AppDataModel.h */,
+			);
+			name = AppDataModel;
+			sourceTree = "<group>";
+		};
+		75FE13481CDDE21100A000C4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				75FE13491CDDE26100A000C4 /* NSString+URLString.h */,
+				75FE134A1CDDE26100A000C4 /* NSString+URLString.m */,
+			);
+			name = Categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		75FE134C1CDDE43500A000C4 /* ImageManagedObjectClasses */ = {
+			isa = PBXGroup;
+			children = (
+				75FE134D1CDDE48400A000C4 /* Images+CoreDataProperties.h */,
+				75FE134E1CDDE48400A000C4 /* Images+CoreDataProperties.m */,
+				75FE134F1CDDE48400A000C4 /* Images.h */,
+				75FE13501CDDE48400A000C4 /* Images.m */,
+			);
+			name = ImageManagedObjectClasses;
+			sourceTree = "<group>";
+		};
+		75FE13531CDDE4BF00A000C4 /* CoreDataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				75FE13541CDDE50100A000C4 /* DatabaseHandler.h */,
+				75FE13551CDDE50100A000C4 /* DatabaseHandler.m */,
+			);
+			name = CoreDataHandler;
+			sourceTree = "<group>";
+		};
+		75FE13581CDDF15800A000C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75FE131E1CDDC85C00A000C4 /* ViewController.h */,
+				75FE131F1CDDC85C00A000C4 /* ViewController.m */,
+				75FE13591CDDF19900A000C4 /* AsyncImageFectchTableViewController.h */,
+				75FE135A1CDDF19900A000C4 /* AsyncImageFectchTableViewController.m */,
+				75FE13991CDE0E6100A000C4 /* imageDetailsViewController.h */,
+				75FE139A1CDE0E6100A000C4 /* imageDetailsViewController.m */,
+				7508F6F41CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.h */,
+				7508F6F51CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75FE13901CDE079B00A000C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75FE13911CDE07B900A000C4 /* TableViewImageCell.h */,
+				75FE13921CDE07B900A000C4 /* TableViewImageCell.m */,
+				7508F6F11CDEEBB300ACA24D /* CollectionViewImageCell.h */,
+				7508F6F21CDEEBB300ACA24D /* CollectionViewImageCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		75FE13951CDE0A4E00A000C4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				75FE13961CDE0A5D00A000C4 /* imagesViewModel.h */,
+				75FE13971CDE0A5D00A000C4 /* imagesViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		A418F7F94AA7A10F35423CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8F3BF9101E7E433DFE76D /* libPods-AsyncImageFetchSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75FE133A1CDDC85D00A000C4 /* Build configuration list for PBXNativeTarget "AsyncImageFetchSample" */;
 			buildPhases = (
+				4CF5CA66188E09D2C17A6F93 /* Check Pods Manifest.lock */,
 				75FE13111CDDC85C00A000C4 /* Sources */,
 				75FE13121CDDC85C00A000C4 /* Frameworks */,
 				75FE13131CDDC85C00A000C4 /* Resources */,
+				C16A5F50706A3C26C94DE23A /* Embed Pods Frameworks */,
+				F74CDBAB621D1509E8C85E44 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +360,7 @@
 			files = (
 				75FE132B1CDDC85D00A000C4 /* LaunchScreen.storyboard in Resources */,
 				75FE13281CDDC85D00A000C4 /* Assets.xcassets in Resources */,
+				75FE139D1CDE1AA000A000C4 /* loading_large@3x.png in Resources */,
 				75FE13231CDDC85C00A000C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,14 +374,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CF5CA66188E09D2C17A6F93 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C16A5F50706A3C26C94DE23A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncImageFetchSample/Pods-AsyncImageFetchSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F74CDBAB621D1509E8C85E44 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncImageFetchSample/Pods-AsyncImageFetchSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75FE13111CDDC85C00A000C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7508F6F31CDEEBB300ACA24D /* CollectionViewImageCell.m in Sources */,
 				75FE13201CDDC85C00A000C4 /* ViewController.m in Sources */,
+				75FE135B1CDDF19900A000C4 /* AsyncImageFectchTableViewController.m in Sources */,
+				75FE139B1CDE0E6100A000C4 /* imageDetailsViewController.m in Sources */,
+				75FE13521CDDE48400A000C4 /* Images.m in Sources */,
+				7508F6F61CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.m in Sources */,
 				75FE131D1CDDC85C00A000C4 /* AppDelegate.m in Sources */,
 				75FE131A1CDDC85C00A000C4 /* main.m in Sources */,
+				75FE13431CDDCC5700A000C4 /* JSONParser.m in Sources */,
+				75FE13561CDDE50100A000C4 /* DatabaseHandler.m in Sources */,
+				75FE13931CDE07B900A000C4 /* TableViewImageCell.m in Sources */,
+				75FE134B1CDDE26100A000C4 /* NSString+URLString.m in Sources */,
+				75FE13511CDDE48400A000C4 /* Images+CoreDataProperties.m in Sources */,
+				75FE13981CDE0A5D00A000C4 /* imagesViewModel.m in Sources */,
 				75FE13261CDDC85C00A000C4 /* AsyncImageFetchSample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +565,11 @@
 		};
 		75FE133B1CDDC85D00A000C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3189F50335B52B6ECAE74A1 /* Pods-AsyncImageFetchSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = AsyncImageFetchSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MyCompany.AsyncImageFetchSample;
@@ -352,8 +579,11 @@
 		};
 		75FE133C1CDDC85D00A000C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A257BB74F783E276CAE82C3 /* Pods-AsyncImageFetchSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = AsyncImageFetchSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MyCompany.AsyncImageFetchSample;
@@ -404,6 +634,7 @@
 				75FE133C1CDDC85D00A000C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75FE133D1CDDC85D00A000C4 /* Build configuration list for PBXNativeTarget "AsyncImageFetchSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +643,7 @@
 				75FE133F1CDDC85D00A000C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
