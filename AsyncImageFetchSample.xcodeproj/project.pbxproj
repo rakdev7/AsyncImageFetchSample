@@ -10,6 +10,14 @@
 		40D7D5A54A0F89F864EFAEB4 /* libPods-AsyncImageFetchSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8F3BF9101E7E433DFE76D /* libPods-AsyncImageFetchSample.a */; };
 		7508F6F31CDEEBB300ACA24D /* CollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508F6F21CDEEBB300ACA24D /* CollectionViewImageCell.m */; };
 		7508F6F61CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508F6F51CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.m */; };
+		75FA7D071CE37ED10099EC3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FA7D061CE37ED10099EC3D /* main.m */; };
+		75FA7D0A1CE37ED10099EC3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FA7D091CE37ED10099EC3D /* AppDelegate.m */; };
+		75FA7D0D1CE37ED10099EC3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FA7D0C1CE37ED10099EC3D /* ViewController.m */; };
+		75FA7D101CE37ED10099EC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7D0E1CE37ED10099EC3D /* Main.storyboard */; };
+		75FA7D131CE37ED10099EC3D /* sasdsad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75FA7D111CE37ED10099EC3D /* sasdsad.xcdatamodeld */; };
+		75FA7D151CE37ED10099EC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7D141CE37ED10099EC3D /* Assets.xcassets */; };
+		75FA7D181CE37ED10099EC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FA7D161CE37ED10099EC3D /* LaunchScreen.storyboard */; };
+		75FA7D231CE37ED10099EC3D /* sasdsadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FA7D221CE37ED10099EC3D /* sasdsadTests.m */; };
 		75FE131A1CDDC85C00A000C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE13191CDDC85C00A000C4 /* main.m */; };
 		75FE131D1CDDC85C00A000C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE131C1CDDC85C00A000C4 /* AppDelegate.m */; };
 		75FE13201CDDC85C00A000C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE131F1CDDC85C00A000C4 /* ViewController.m */; };
@@ -31,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		75FA7D1F1CE37ED10099EC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FE130D1CDDC85C00A000C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FA7D021CE37ED10099EC3D;
+			remoteInfo = sasdsad;
+		};
 		75FE13321CDDC85D00A000C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75FE130D1CDDC85C00A000C4 /* Project object */;
@@ -45,6 +60,20 @@
 		7508F6F21CDEEBB300ACA24D /* CollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewImageCell.m; sourceTree = "<group>"; };
 		7508F6F41CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageFetchCollectionViewController.h; sourceTree = "<group>"; };
 		7508F6F51CDEEBDF00ACA24D /* AsyncImageFetchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageFetchCollectionViewController.m; sourceTree = "<group>"; };
+		75FA7D031CE37ED10099EC3D /* sasdsad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sasdsad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FA7D061CE37ED10099EC3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75FA7D081CE37ED10099EC3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75FA7D091CE37ED10099EC3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75FA7D0B1CE37ED10099EC3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75FA7D0C1CE37ED10099EC3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75FA7D0F1CE37ED10099EC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75FA7D121CE37ED10099EC3D /* sasdsad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sasdsad.xcdatamodel; sourceTree = "<group>"; };
+		75FA7D141CE37ED10099EC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75FA7D171CE37ED10099EC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75FA7D191CE37ED10099EC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FA7D1E1CE37ED10099EC3D /* sasdsadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sasdsadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FA7D221CE37ED10099EC3D /* sasdsadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sasdsadTests.m; sourceTree = "<group>"; };
+		75FA7D241CE37ED10099EC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75FE13151CDDC85C00A000C4 /* AsyncImageFetchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncImageFetchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FE13191CDDC85C00A000C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75FE131B1CDDC85C00A000C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +116,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		75FA7D001CE37ED10099EC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FA7D1B1CE37ED10099EC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75FE13121CDDC85C00A000C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,11 +157,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		75FA7D041CE37ED10099EC3D /* sasdsad */ = {
+			isa = PBXGroup;
+			children = (
+				75FA7D081CE37ED10099EC3D /* AppDelegate.h */,
+				75FA7D091CE37ED10099EC3D /* AppDelegate.m */,
+				75FA7D0B1CE37ED10099EC3D /* ViewController.h */,
+				75FA7D0C1CE37ED10099EC3D /* ViewController.m */,
+				75FA7D0E1CE37ED10099EC3D /* Main.storyboard */,
+				75FA7D141CE37ED10099EC3D /* Assets.xcassets */,
+				75FA7D161CE37ED10099EC3D /* LaunchScreen.storyboard */,
+				75FA7D191CE37ED10099EC3D /* Info.plist */,
+				75FA7D111CE37ED10099EC3D /* sasdsad.xcdatamodeld */,
+				75FA7D051CE37ED10099EC3D /* Supporting Files */,
+			);
+			path = sasdsad;
+			sourceTree = "<group>";
+		};
+		75FA7D051CE37ED10099EC3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75FA7D061CE37ED10099EC3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75FA7D211CE37ED10099EC3D /* sasdsadTests */ = {
+			isa = PBXGroup;
+			children = (
+				75FA7D221CE37ED10099EC3D /* sasdsadTests.m */,
+				75FA7D241CE37ED10099EC3D /* Info.plist */,
+			);
+			path = sasdsadTests;
+			sourceTree = "<group>";
+		};
 		75FE130C1CDDC85C00A000C4 = {
 			isa = PBXGroup;
 			children = (
 				75FE13171CDDC85C00A000C4 /* AsyncImageFetchSample */,
 				75FE13341CDDC85D00A000C4 /* AsyncImageFetchSampleTests */,
+				75FA7D041CE37ED10099EC3D /* sasdsad */,
+				75FA7D211CE37ED10099EC3D /* sasdsadTests */,
 				75FE13161CDDC85C00A000C4 /* Products */,
 				18D0674642D7D7F2C0934A58 /* Pods */,
 				A418F7F94AA7A10F35423CEC /* Frameworks */,
@@ -130,6 +209,8 @@
 			children = (
 				75FE13151CDDC85C00A000C4 /* AsyncImageFetchSample.app */,
 				75FE13311CDDC85D00A000C4 /* AsyncImageFetchSampleTests.xctest */,
+				75FA7D031CE37ED10099EC3D /* sasdsad.app */,
+				75FA7D1E1CE37ED10099EC3D /* sasdsadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,6 +359,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		75FA7D021CE37ED10099EC3D /* sasdsad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FA7D291CE37ED10099EC3D /* Build configuration list for PBXNativeTarget "sasdsad" */;
+			buildPhases = (
+				75FA7CFF1CE37ED10099EC3D /* Sources */,
+				75FA7D001CE37ED10099EC3D /* Frameworks */,
+				75FA7D011CE37ED10099EC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sasdsad;
+			productName = sasdsad;
+			productReference = 75FA7D031CE37ED10099EC3D /* sasdsad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75FA7D1D1CE37ED10099EC3D /* sasdsadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FA7D2A1CE37ED10099EC3D /* Build configuration list for PBXNativeTarget "sasdsadTests" */;
+			buildPhases = (
+				75FA7D1A1CE37ED10099EC3D /* Sources */,
+				75FA7D1B1CE37ED10099EC3D /* Frameworks */,
+				75FA7D1C1CE37ED10099EC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FA7D201CE37ED10099EC3D /* PBXTargetDependency */,
+			);
+			name = sasdsadTests;
+			productName = sasdsadTests;
+			productReference = 75FA7D1E1CE37ED10099EC3D /* sasdsadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		75FE13141CDDC85C00A000C4 /* AsyncImageFetchSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75FE133A1CDDC85D00A000C4 /* Build configuration list for PBXNativeTarget "AsyncImageFetchSample" */;
@@ -325,6 +441,13 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = MyCompany;
 				TargetAttributes = {
+					75FA7D021CE37ED10099EC3D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					75FA7D1D1CE37ED10099EC3D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 75FA7D021CE37ED10099EC3D;
+					};
 					75FE13141CDDC85C00A000C4 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -349,11 +472,30 @@
 			targets = (
 				75FE13141CDDC85C00A000C4 /* AsyncImageFetchSample */,
 				75FE13301CDDC85D00A000C4 /* AsyncImageFetchSampleTests */,
+				75FA7D021CE37ED10099EC3D /* sasdsad */,
+				75FA7D1D1CE37ED10099EC3D /* sasdsadTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		75FA7D011CE37ED10099EC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA7D181CE37ED10099EC3D /* LaunchScreen.storyboard in Resources */,
+				75FA7D151CE37ED10099EC3D /* Assets.xcassets in Resources */,
+				75FA7D101CE37ED10099EC3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FA7D1C1CE37ED10099EC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75FE13131CDDC85C00A000C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,6 +565,25 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		75FA7CFF1CE37ED10099EC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA7D0D1CE37ED10099EC3D /* ViewController.m in Sources */,
+				75FA7D0A1CE37ED10099EC3D /* AppDelegate.m in Sources */,
+				75FA7D071CE37ED10099EC3D /* main.m in Sources */,
+				75FA7D131CE37ED10099EC3D /* sasdsad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FA7D1A1CE37ED10099EC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA7D231CE37ED10099EC3D /* sasdsadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75FE13111CDDC85C00A000C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,6 +617,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		75FA7D201CE37ED10099EC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FA7D021CE37ED10099EC3D /* sasdsad */;
+			targetProxy = 75FA7D1F1CE37ED10099EC3D /* PBXContainerItemProxy */;
+		};
 		75FE13331CDDC85D00A000C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 75FE13141CDDC85C00A000C4 /* AsyncImageFetchSample */;
@@ -464,6 +630,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		75FA7D0E1CE37ED10099EC3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75FA7D0F1CE37ED10099EC3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75FA7D161CE37ED10099EC3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75FA7D171CE37ED10099EC3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		75FE13211CDDC85C00A000C4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -483,6 +665,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		75FA7D251CE37ED10099EC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sasdsad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyCompany.sasdsad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75FA7D261CE37ED10099EC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sasdsad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyCompany.sasdsad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75FA7D271CE37ED10099EC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sasdsadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyCompany.sasdsadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sasdsad.app/sasdsad";
+			};
+			name = Debug;
+		};
+		75FA7D281CE37ED10099EC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sasdsadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyCompany.sasdsadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sasdsad.app/sasdsad";
+			};
+			name = Release;
+		};
 		75FE13381CDDC85D00A000C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -618,6 +846,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		75FA7D291CE37ED10099EC3D /* Build configuration list for PBXNativeTarget "sasdsad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FA7D251CE37ED10099EC3D /* Debug */,
+				75FA7D261CE37ED10099EC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75FA7D2A1CE37ED10099EC3D /* Build configuration list for PBXNativeTarget "sasdsadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FA7D271CE37ED10099EC3D /* Debug */,
+				75FA7D281CE37ED10099EC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		75FE13101CDDC85C00A000C4 /* Build configuration list for PBXProject "AsyncImageFetchSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -648,6 +892,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		75FA7D111CE37ED10099EC3D /* sasdsad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75FA7D121CE37ED10099EC3D /* sasdsad.xcdatamodel */,
+			);
+			currentVersion = 75FA7D121CE37ED10099EC3D /* sasdsad.xcdatamodel */;
+			path = sasdsad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		75FE13241CDDC85C00A000C4 /* AsyncImageFetchSample.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

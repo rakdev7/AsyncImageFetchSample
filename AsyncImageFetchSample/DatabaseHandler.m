@@ -118,9 +118,6 @@
     }
 }
 
-
-
-
 -(BOOL) isApplicationLaunchedFirstTime {
     [self checkLHDBfile];
     return [DatabaseHandler sharedManager].firstLaunch;

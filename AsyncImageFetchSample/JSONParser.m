@@ -36,7 +36,6 @@
         for (id each in dataArray) {
             NSLog(@"%@",[[[each objectForKey:kImagesKey]objectForKey:kStandrdResolutionKey]objectForKey:kurlKey]);
             [urlArray addObject:[[[each objectForKey:kImagesKey]objectForKey:kStandrdResolutionKey]objectForKey:kurlKey]];
-            
         }
         completionBlock(nil,urlArray);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
